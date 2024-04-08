@@ -26,18 +26,18 @@ export default function Home() {
       </header>
 
       <section className="mt-8 md:mt-16">
-        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           Driven by my passion for creativity, problem-solving and innovative
           technology, I made a bold shift from Accounting and Finance to iOS
           development.{" "}
-        </h1>
-        <p className="text-lg md:text-xl lg:text-2xl mb-4">
+        </p>
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           I've immersed myself in learning Swift, tackling algorithmic
           challenges, and crafting iOS applications. This journey has not only
           enhanced my technical skills but also reinforced my love for finding
           innovative solutions.
         </p>
-        <p className="text-lg md:text-xl lg:text-2xl mb-4">
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           Starting out independently, I delved into esteemed programs like
           Stanford's CS193p and Harvard's CS50, alongside Udemy tutorials.
           Recognizing the importance of mentorship, I became part of the
@@ -47,18 +47,18 @@ export default function Home() {
           Mentorship Program sharpened my focus and bolstered my ambitions in
           iOS development.
         </p>
-        <p className="text-lg md:text-xl lg:text-2xl mb-4">
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           As a testament to my dedication, I successfully launched two
           applications: QuizCard Flashcards Maker and Owley AI Flashcards. Feel
           free to explore them in my portfolio to see my progress in action.
         </p>
-        <p className="text-lg md:text-xl lg:text-2xl mb-4">
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           Beyond coding, I express myself through digital art in Adobe
           Illustrator and enjoy experimenting with food recipes (some of which
           are actually edible!). Balancing work with life, I treasure moments
           with my energetic young son, who constantly inspires me.
         </p>
-        <p className="text-lg md:text-xl lg:text-2xl mb-4">
+        <p className="text-lg md:text-xl lg:text-lg mb-4">
           I'm eager to explore opportunities where I can leverage my skills and
           grow in the dynamic field of iOS development. Whether it's
           collaborating on innovative projects or discussing potential
@@ -66,7 +66,7 @@ export default function Home() {
         </p>
       </section>
 
-      <div className="flex flex-col md:flex-row mx-4 md:mx-16 lg:mx-32 mt-16 md:mt-32 gap-8 md:gap-16 lg:gap-32">
+      <div className="flex flex-col md:flex-row mx-4 md:mx-16 lg:mx-32 mt-16 md:mt-16 gap-8 md:gap-16 lg:gap-32">
         <div className="mt-8 md:mt-16">
           <h2 className="mb-2 text-xl md:text-2xl lg:text-3xl font-semibold">
             <span>Owley AI Flashcards </span>
