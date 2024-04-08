@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Shakhnoza Mirabzalova - Software Engineer",
   description: "Software engineer with experience in iOS development with SwiftUI",
+  icons: {
+    icon: "/images/favicon/favicon-96x96.png",
+  },
 };
 
 export default function RootLayout({
