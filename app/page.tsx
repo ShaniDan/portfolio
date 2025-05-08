@@ -131,7 +131,7 @@ export default function Home() {
           </h2>
           <p className="mb-4 md:mb-6">Tech: Swift, SwiftUI, UserDefaults</p>
           <p className="mb-4 md:mb-6">
-            The QuizCard application was developed entirely using SwiftUI. This
+            The QuizCard mobile application was developed entirely using SwiftUI. This
             innovative tool enables users to create customized flashcard sets
             that they can add flashcards to the sets. QuizCard provides data
             security and privacy by storing all user-generated content locally
