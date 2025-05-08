@@ -49,8 +49,7 @@ export default function Home() {
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           As a testament to my dedication, I successfully launched two
-          applications: QuizCard Flashcards Maker and Owley AI Flashcards. Feel
-          free to explore them in my portfolio to see my progress in action.
+          applications: QuizCard Flashcards Maker and Owley AI Flashcards. You can explore them in my portfolio to see my progress in action.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           Beyond coding, I express myself through digital art in Adobe
