@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col justify-between min-h-screen p-4 sm:p-8 md:p-12 lg:p-24">
       <header className="flex justify-between relative">
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-          Shakhnoza (Shani) Mirabzalova
+          Shakhnoza Mirabzalova
         </h1>
         <div className="flex gap-2">
           <a href="https://github.com/ShaniDan">
@@ -14,7 +14,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/shakhnoza-mirabzalova-355535165/">
             <Image src="/linkedin.svg" height={25} width={25} alt="LinkedIn" />
           </a>
-          <a href="/resume.pdf">
+          <a href="/CV.pdf">
             <Image
               src="/file-02-text.svg"
               height={25}
@@ -40,16 +40,15 @@ export default function Home() {
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           Starting out independently, I delved into esteemed programs like
           Stanford's CS193p and Harvard's CS50, alongside Udemy tutorials.
-          Recognizing the importance of mentorship, I became part of the
-          inspiring UnderdogDevs community. Here, I benefited greatly from the
-          guidance of a Lead iOS Engineer, whose wisdom profoundly influenced my
-          development path. Additionally, participating in the 2023 Swift
-          Mentorship Program sharpened my focus and bolstered my ambitions in
-          iOS development.
+          Recognizing the importance of mentorship, I joined a community of 
+          software engineers, where I was paired with a Lead iOS Engineer who
+          provided support - ranging from technical guidance and best coding practices to career advice.
+          Additionally, participating in the 2023 Swift Mentorship Program sharpened my 
+          focus and bolstered my ambitions in iOS development.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          As a testament to my dedication, I successfully launched two
-          applications: QuizCard Flashcards Maker and Owley AI Flashcards. You can explore them in my portfolio to see my progress in action.
+          As a testament to my dedication, I successfully launched three
+          applications: QuizCard Flashcards Maker, Owley AI Flashcards and DVSA Test. You can explore them in my portfolio to see my progress in action.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           Beyond coding, I express myself through digital art in Adobe

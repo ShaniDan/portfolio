@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shakhnoza Mirabzalova - Software Engineer",
-  description: "Software engineer with experience in iOS development with SwiftUI",
+  title: "Shakhnoza Mirabzalova - iOS Engineer",
+  description: "iOS engineer with experience in iOS development with SwiftUI",
   icons: {
     icon: "/images/favicon/favicon-96x96.png",
   },
