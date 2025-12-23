@@ -1,12 +1,18 @@
 import Image from "next/image";
+import ImageCarousel from "./components/ImageCarousel";
 
 export default function Home() {
   return (
     <main className="flex flex-col justify-between min-h-screen p-4 sm:p-8 md:p-12 lg:p-24">
       <header className="flex justify-between relative">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-          Shakhnoza Mirabzalova
-        </h1>
+        <div>
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+            Shakhnoza Mirabzalova
+          </h1>
+          <p className="text-sm sm:text-base md:text-lg text-black/70">
+            iOS Developer who enjoys building simple, user-friendly apps that just make sense
+          </p>
+        </div>
         <div className="flex gap-2">
           <a href="https://github.com/ShaniDan">
             <Image src="/github.svg" height={25} width={25} alt="Github" />
@@ -14,7 +20,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/shakhnoza-mirabzalova-355535165/">
             <Image src="/linkedin.svg" height={25} width={25} alt="LinkedIn" />
           </a>
-          <a href="/CV.pdf">
+          <a href="/resume.pdf">
             <Image
               src="/file-02-text.svg"
               height={25}
@@ -27,45 +33,93 @@ export default function Home() {
 
       <section className="mt-8 md:mt-16">
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          Driven by my passion for creativity, problem-solving and innovative
-          technology, I made a bold shift from Accounting and Finance to iOS
-          development.{" "}
+          Driven by a love for creativity, problem-solving, and building things
+          that actually work the way users expect, I transitioned from
+          Accounting and Finance into iOS development. It turns out balancing
+          numbers was good training for debugging—just with fewer spreadsheets
+          and more Swift.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          I've immersed myself in learning Swift, tackling algorithmic
-          challenges, and crafting iOS applications. This journey has not only
-          enhanced my technical skills but also reinforced my love for finding
-          innovative solutions.
+          I focus on building clean, user-friendly apps that feel intuitive,
+          because great software shouldn’t need instructions (or a deep
+          breath). Along the way, I’ve immersed myself in Swift, algorithms, and
+          hands-on development through programs like Stanford’s CS193p,
+          Harvard’s CS50, and mentorship with a Lead iOS Engineer who helped
+          shape my approach to architecture and best practices.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          Starting out independently, I delved into esteemed programs like
-          Stanford's CS193p and Harvard's CS50, alongside Udemy tutorials.
-          Recognizing the importance of mentorship, I joined a community of 
-          software engineers, where I was paired with a Lead iOS Engineer who
-          provided support - ranging from technical guidance and best coding practices to career advice.
-          Additionally, participating in the 2023 Swift Mentorship Program sharpened my 
-          focus and bolstered my ambitions in iOS development.
+          As a testament to my dedication, I’ve launched three apps—QuizCard
+          Flashcards Maker, Owley AI Flashcards, and Driving Prep UK,each one teaching
+          me something new (usually right after something broke). You can
+          explore them in my portfolio to see the progress in action.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          As a testament to my dedication, I successfully launched three
-          applications: QuizCard Flashcards Maker, Owley AI Flashcards and DVSA Test. You can explore them in my portfolio to see my progress in action.
+          Outside of code, I enjoy digital illustration, experimenting with
+          food recipes (some successful, some educational), and spending time
+          with my energetic young son—who keeps me curious, grounded, and very
+          good at explaining complex things simply.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          Beyond coding, I express myself through digital art in Adobe
-          Illustrator and enjoy experimenting with food recipes (some of which
-          are actually edible!). Balancing work with life, I treasure moments
-          with my energetic young son, who constantly inspires me.
-        </p>
-        <p className="text-lg md:text-xl lg:text-lg mb-4">
-          I'm eager to explore opportunities where I can leverage my skills and
-          grow in the dynamic field of iOS development. Whether it's
-          collaborating on innovative projects or discussing potential
-          opportunities, let's connect and create something impactful together!
+          I’m excited to keep growing as an iOS developer and to contribute to
+          teams building thoughtful, well-crafted products. If you’d like to
+          connect or collaborate, I’d love to chat.
         </p>
       </section>
 
+      <div className="flex flex-col md:flex-row mx-4 md:mx-16 lg:mx-32 mt-16 md:mt-32 gap-8 md:gap-16 lg:gap-32">
+        <div className="mt-8 md:mt-16 md:flex-1">
+          <h2 className="mb-2 text-xl md:text-2xl lg:text-3xl font-semibold">
+            <span>Driving Prep UK</span>
+          </h2>
+          <p className="mb-4 md:mb-6">
+            Tech: Swift, SwiftUI, In-App Purchases, RevenueCat, SwiftData,
+            Localization
+          </p>
+          <p className="mb-4 md:mb-6">
+            Designed and developed an iOS application for the licensed UK
+            driving theory exam using Swift and SwiftUI, serving over 300 active
+            users currently. Implemented structured JSON-based storage for
+            questions, answers, and media with efficient decoding. Implemented
+            full localization and internationalization support, enabling the
+            app to support multiple international languages for non-native
+            English speakers preparing for the UK driving exam, including
+            localized UI strings and question content. Implemented SwiftData as
+            the local persistence layer to store user practice test results,
+            enabling efficient retrieval, querying, and presentation of
+            performance history across sessions. Implemented RevenueCat SDK for
+            subscriptions, supporting active, paying users.
+          </p>
+          <div className="flex gap-4 md:gap-10">
+            <a
+              className="flex gap-1 items-center"
+              href="https://apps.apple.com/us/app/driving-prep-uk/id6743640274"
+            >
+              <Image
+                src="/apple-logo.svg"
+                height={22}
+                width={22}
+                alt="Apple Store"
+                className="mr-1"
+              />
+              <span className="underline">Download</span>
+            </a>
+          </div>
+        </div>
+        <ImageCarousel
+          images={[
+            { src: "/01.png", alt: "Driving Prep UK" },
+            { src: "/02.png", alt: "Driving Prep UK" },
+            { src: "/03.png", alt: "Driving Prep UK" },
+            { src: "/04.png", alt: "Driving Prep UK" },
+            { src: "/dvsa5.png", alt: "Driving Prep UK" },
+            { src: "/dvsad4.png", alt: "Driving Prep UK" },
+          ]}
+          className="self-center md:mr-1 w-full sm:w-[150px] md:w-[240px] lg:w-[360px] md:flex-none"
+        />
+      </div>
+
       <div className="flex flex-col md:flex-row mx-4 md:mx-16 lg:mx-32 mt-16 md:mt-16 gap-8 md:gap-16 lg:gap-32">
-        <div className="mt-8 md:mt-16">
+        <div className="mt-8 md:mt-16 md:flex-1">
           <h2 className="mb-2 text-xl md:text-2xl lg:text-3xl font-semibold">
             <span>Owley AI Flashcards </span>
           </h2>
@@ -114,17 +168,19 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <Image
-          src="/owley.png"
-          height={458}
-          width={210}
-          alt="Owley AI Flashcards"
-          className="self-center md:mr-1"
+        <ImageCarousel
+          images={[
+            { src: "/owley.png", alt: "Owley AI Flashcards" },
+            { src: "/owley2.png", alt: "Owley AI Flashcards" },
+            { src: "/owley3.png", alt: "Owley AI Flashcards" },
+            { src: "/owley4.png", alt: "Owley AI Flashcards" },
+          ]}
+          className="self-center md:mr-1 w-full sm:w-[150px] md:w-[240px] lg:w-[360px] md:flex-none"
         />
       </div>
 
       <div className="flex flex-col md:flex-row mx-4 md:mx-16 lg:mx-32 mt-16 md:mt-32 gap-8 md:gap-16 lg:gap-32">
-        <div className="mt-8 md:mt-16">
+        <div className="mt-8 md:mt-16 md:flex-1">
           <h2 className="mb-2 text-xl md:text-2xl lg:text-3xl font-semibold">
             <span>QuizCards</span>
           </h2>
@@ -169,12 +225,13 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <Image
-          src="/quizcards.png"
-          height={458}
-          width={210}
-          alt="QuizCards"
-          className="self-center md:mr-1"
+        <ImageCarousel
+          images={[
+            { src: "/quizcards.png", alt: "QuizCards" },
+            { src: "/quizcard1.png", alt: "QuizCards" },
+            { src: "/quizcard2.png", alt: "QuizCards" },
+          ]}
+          className="self-center md:mr-1 w-full sm:w-[150px] md:w-[240px] lg:w-[360px] md:flex-none"
         />
       </div>
     </main>
