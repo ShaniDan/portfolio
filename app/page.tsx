@@ -36,7 +36,7 @@ export default function Home() {
           Driven by a love for creativity, problem-solving, and building things
           that actually work the way users expect, I transitioned from
           Accounting and Finance into iOS development. It turns out balancing
-          numbers was good training for debugging—just with fewer spreadsheets
+          numbers was good training for debugging, just with fewer spreadsheets
           and more Swift.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
@@ -48,7 +48,7 @@ export default function Home() {
           shape my approach to architecture and best practices.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          As a testament to my dedication, I’ve launched three apps—QuizCard
+          As a testament to my dedication, I’ve launched three apps:QuizCard
           Flashcards Maker, Owley AI Flashcards, and Driving Prep UK,each one teaching
           me something new (usually right after something broke). You can
           explore them in my portfolio to see the progress in action.
@@ -56,7 +56,7 @@ export default function Home() {
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           Outside of code, I enjoy digital illustration, experimenting with
           food recipes (some successful, some educational), and spending time
-          with my energetic young son—who keeps me curious, grounded, and very
+          with my energetic young son, who keeps me curious, grounded, and very
           good at explaining complex things simply.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
