@@ -20,7 +20,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/shakhnoza-mirabzalova-355535165/">
             <Image src="/linkedin.svg" height={25} width={25} alt="LinkedIn" />
           </a>
-          <a href="/resume.pdf">
+          <a href="/resume1.pdf">
             <Image
               src="/file-02-text.svg"
               height={25}
