@@ -10,7 +10,7 @@ export default function Home() {
             Shakhnoza Mirabzalova
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-black/70">
-            iOS Developer who enjoys building simple, user-friendly apps that just make sense
+            iOS Developer creating thoughtful products that bring clarity and real value
           </p>
         </div>
         <div className="flex gap-2">
@@ -33,31 +33,32 @@ export default function Home() {
 
       <section className="mt-8 md:mt-16">
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          Driven by a love for creativity, problem-solving, and building things
-          that actually work the way users expect, I transitioned from
-          Accounting and Finance into iOS development. It turns out balancing
+          Driven by a love for creativity, problem-solving, and building meaningful products, 
+          I transitioned from Accounting and Finance into iOS development. It turns out balancing
           numbers was good training for debugging, just with fewer spreadsheets
-          and more Swift.
+          and more with Swift. What drew me in to development was the idea of bringing ideas
+          to life and creating products that genuinely solve problems and help people.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          I focus on building clean, user-friendly apps that feel intuitive,
-          because great software shouldn’t need instructions (or a deep
-          breath). Along the way, I’ve immersed myself in Swift, algorithms, and
-          hands-on development through programs like Stanford’s CS193p,
-          Harvard’s CS50, and mentorship with a Lead iOS Engineer who helped
-          shape my approach to architecture and best practices.
+          I focus on building clean, user-friendly applications 
+          that create real value and make everyday experiences simpler. 
+          Along the way, I’ve immersed myself in Swift, algorithms, 
+          and hands-on development through programs such as Stanford’s CS193p 
+          and Harvard’s CS50. Recognizing the importance of mentorship, 
+          I joined a developer community where I worked closely with a Lead iOS Engineer
+          who helped guide my growth and deepen my understanding of scalable, 
+          well-structured code. In 2023, I also joined the Swift Mentorship Program, 
+          where I strengthened my skills in data structures, algorithms, and iOS application development.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          As a testament to my dedication, I’ve launched three apps:QuizCard
-          Flashcards Maker, Owley AI Flashcards, and Driving Prep UK,each one teaching
-          me something new (usually right after something broke). You can
-          explore them in my portfolio to see the progress in action.
+          As a testament to my dedication, I’ve launched three applications:QuizCard
+          Flashcards Maker, Owley AI Flashcards, and Driving Prep UK.
+          Currently all my applications have consitent active users and I am continuously working on improving them based on user feedback.
+          Feel free to explore them in the projects section below!
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          Outside of code, I enjoy digital illustration, experimenting with
-          food recipes (some successful, some educational), and spending time
-          with my energetic young son, who keeps me curious, grounded, and very
-          good at explaining complex things simply.
+        Outside of code, I enjoy digital illustration 🎨, experimenting in the kitchen 🍳, 
+        and spending time with my energetic son—who constantly reminds me that simplicity is powerful.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
           I’m excited to keep growing as an iOS developer and to contribute to
