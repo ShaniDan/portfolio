@@ -57,13 +57,13 @@ export default function Home() {
           Feel free to explore them in the projects section below!
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-        Outside of code, I enjoy digital illustration 🎨, experimenting in the kitchen 🍳, 
-        and spending time with my energetic son—who constantly reminds me that simplicity is powerful.
+        Outside of programming, I enjoy digital illustration 🎨, spending time in nature 🌿 
+        and with my energetic son, who constantly reminds me that simplicity is powerful.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          I’m excited to keep growing as an iOS developer and to contribute to
-          teams building thoughtful, well-crafted products. If you’d like to
-          connect or collaborate, I’d love to chat.
+        I’m excited to continue growing as an iOS developer and 
+        to contribute to teams building well-crafted, meaningful products. 
+        If you’d like to connect or collaborate, I’d be happy to chat.
         </p>
       </section>
 
