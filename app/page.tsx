@@ -54,7 +54,7 @@ export default function Home() {
           As a testament to this journey, I’ve launched three applications: 
           QuizCard Flashcards Maker, Owley AI Flashcards, and Driving Prep UK. 
           Each project has helped me grow as a developer, and 
-          all are actively used by real users—pushing me to continuously improve based on real-world feedback.
+          all are actively used by real users and I'm continuously working on improving them based on real-world feedback.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
         Outside of programming, I enjoy digital illustration 🎨, spending time in nature 🌿 
