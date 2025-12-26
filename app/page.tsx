@@ -51,10 +51,10 @@ export default function Home() {
           where I strengthened my skills in data structures, algorithms, and iOS application development.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
-          As a testament to my dedication, I’ve launched three applications:QuizCard
-          Flashcards Maker, Owley AI Flashcards, and Driving Prep UK.
-          Currently all my applications have consitent active users and I am continuously working on improving them based on user feedback.
-          Feel free to explore them in the projects section below!
+          As a testament to this journey, I’ve launched three applications: 
+          QuizCard Flashcards Maker, Owley AI Flashcards, and Driving Prep UK. 
+          Each project has helped me grow as a developer, and 
+          all are actively used by real users—pushing me to continuously improve based on real-world feedback.
         </p>
         <p className="text-lg md:text-xl lg:text-lg mb-4">
         Outside of programming, I enjoy digital illustration 🎨, spending time in nature 🌿 
